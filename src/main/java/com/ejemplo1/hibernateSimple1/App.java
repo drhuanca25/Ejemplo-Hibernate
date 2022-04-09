@@ -26,11 +26,17 @@ public class App
 {
 	public static void main( String[] args )
     {    	
-        MateriaModel mm = new MateriaModel();
-        Materia mat = new Materia();
-        mat.setSigla("A1");
-        mat.setDescripcion("Es unamateria facil y divertida");
-        mm.crear(mat);
+//        MateriaModel mm = new MateriaModel();
+//        Materia mat = new Materia();
+//        mat.setSigla("A1");
+//        mat.setDescripcion("Es unamateria facil y divertida");
+//        mm.crear(mat);
+		
+		EstudianteModel em = new EstudianteModel();
+        Estudiante est = new Estudiante();
+        est.setNombre("Nestor");
+        est.setApellido("Torres");        
+        em.crear(est);
         
     }   
 }
